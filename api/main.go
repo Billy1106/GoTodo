@@ -1,9 +1,9 @@
 package main
 
 import (
-	"memo-go/delivery"
 	"memo-go/domain"
 	"memo-go/repository"
+	delivery "memo-go/service"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
